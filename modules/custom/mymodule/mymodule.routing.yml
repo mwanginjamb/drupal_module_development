@@ -1,0 +1,7 @@
+mymodule.simplecontent:
+  path: "/aboutgumzo"
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\GumzoController::simpleContent'
+    _title: "Get into curating, safeguarding your institutional knowledge"
+  requirements:
+    _permission: "access content"
